@@ -77,14 +77,14 @@ public class Cliente {
 					filasNum = Integer.parseInt(recibido, 10);
 
 					
-					for (int i = 0; i < filasNum; i++) {
+					for (int i = 0; i <= filasNum; i++) {
 					    recibido = bf.readLine();
+					    System.out.println(recibido);
 					    if ("FIN".equals(recibido)) {
 					        break; 
 					    }
-					    System.out.println(recibido);
 					}
-					break;
+					 break;
 
 				case 4:
 					
